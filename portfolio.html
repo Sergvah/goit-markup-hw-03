@@ -12,59 +12,61 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <nav class="header-nav">
-            <a href="/" lang="en"  class="header-logo">
+   <header class="header">
+    <div class="container main-nav">
+        <nav class="header-nav main-nav">
+            <a href="/" lang="en"  class="header-logo  size-header">
            <span class="accent">Web</span>Studio</a>
             <ul class="header-list">
-                <li>
+                <li class="header-list-item">
                     <a class="header-list-link" href="./index.html">Студия
                     </a>
                 </li> 
-                <li>
+                <li class="header-list-item">
                     <a class="header-list-link current" href="./portfolio.html" >Портфолио
                     </a>
                 </li>
-                <li>
+                <li class="header-list-item">
                     <a class="header-list-link" href="/">Контакты
                     </a>
                 </li>
             </ul>
         </nav>
-        <ul class="header-list-adress">
-            <li>
+        <ul class="header-list-adress main-nav">
+            <li class="header-adress-item">
                 <a class="header-adress-link" href="emailto:info@devstudio.com">info@devstudio.com
                 </a>
             </li>
-            <li>
+            <li class="header-adress-item">
                 <a class="header-adress-link" href="tel:+380961111111">+38 096 111 11 11
                 </a>
             </li>
         </ul>
+    </div>
     </header>
     <main>
         <section class="section-our-works">
             <div class="container">
             <h1 class="visually-hidden">Наши работы</h1>
             <ul class="our-works-list">
-                <li>
-                    <button class="our-works-btn our-works-btn-all flex-our-works-btn" type="button">Все
+                <li class="flex-our-works-btn">
+                    <button class="our-works-btn our-works-btn-all" type="button">Все
                     </button>
                 </li>
-                <li>
-                    <button class="our-works-btn flex-our-works-btn" type="button">Веб-сайты
+                <li class="flex-our-works-btn">
+                    <button class="our-works-btn" type="button">Веб-сайты
                     </button>
                 </li>
-                <li>
-                    <button class="our-works-btn flex-our-works-btn" type="button">Приложения 
+                <li class="flex-our-works-btn">
+                    <button class="our-works-btn" type="button">Приложения 
                     </button>
                 </li>
-                <li>
-                    <button class="our-works-btn flex-our-works-btn" type="button">Дизайн
+                <li class="flex-our-works-btn">
+                    <button class="our-works-btn" type="button">Дизайн
                     </button>
                 </li>
-                <li>
-                    <button class="our-works-btn flex-our-works-btn" type="button">Маркетинг
+                <li class="flex-our-works-btn">
+                    <button class="our-works-btn" type="button">Маркетинг
                     </button>
                 </li>
             </ul>
@@ -125,20 +127,22 @@
         </section>
     </main>
     <footer class="footer">
-        <a href="/" lang="en"  class="header-logo">
+        <div class="container">
+        <a href="/" lang="en"  class="header-logo footer-size">
             <span class="accent">Web</span>Studio
         </a>
         <address class="footer-adress">
             <p>г. Киев, пр-т Леси Украинки, 26</p>
             <ul class="footer-list">
-                <li>
+                <li class="list-size">
                     <a class="footer-adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li>
+                <li class="list-size">
                     <a class="footer-adress-link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </address>
+    </div>
     </footer>
 </body>
 </html>
