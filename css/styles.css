@@ -137,8 +137,6 @@ image {
 /*---------------------SECTION-OUR-WORKS---------------------*/
 .section-our-works {
     display: block;
-    text-align: center;
-    
 }
 
 .our-works-btn {
@@ -156,8 +154,6 @@ image {
     padding-bottom: 6px;
     padding-right: 22px;
     padding-left: 22px;
-    
-   
 }
 .our-works-list {
     display: flex;
@@ -167,8 +163,7 @@ image {
 }
 .flex-our-works-btn {
     margin-right: 8px;
-    border-radius: 4px;
-   
+    border-radius: 4px; 
 }
 .our-works-btn:hover,
 .our-works-btn:focus {
@@ -186,8 +181,7 @@ image {
     letter-spacing: 0.06em;
     margin-bottom: 4px;
     padding-left: 24px;
-    padding-right: 24px;
-    
+    padding-right: 24px; 
 }
 .our-works-text {
     font-weight: 400;
