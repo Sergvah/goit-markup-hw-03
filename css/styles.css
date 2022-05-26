@@ -165,6 +165,9 @@ image {
     margin-right: 8px;
     border-radius: 4px; 
 }
+.flex-our-works-btn:last-child {
+    margin-right: 0;
+}
 .our-works-btn:hover,
 .our-works-btn:focus {
     color: var(--top-color);
