@@ -139,7 +139,7 @@ image {
     display: flex;
     flex-wrap: wrap;
     padding-top: 94px;
-    padding-bottom: 50px;
+    padding-bottom: 94px;
 }
 
 .our-works-btn {
@@ -161,6 +161,7 @@ image {
 .our-works-list {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .flex-our-works-btn {
     margin-right: 8px;
@@ -177,10 +178,6 @@ image {
 .our-works-btn-all {
     color: var(--top-color);
     background-color: var(--accent-color);
-}
-.our-works-primers {
-    display: flex;
-    padding-bottom: 94px;   
 }
 .our-works-title {
     font-weight: 700;
