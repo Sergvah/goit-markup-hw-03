@@ -257,31 +257,39 @@ image {
     text-decoration:none;
     color: var(--footer-grey-color);
     letter-spacing: 0.03em;
-    padding-top: 9px;
 }
 .footer-adress-link:hover,
 .footer-adress-link:focus {
     color: var(--accent-color);
 }
+.list-size {
+    margin-top: 9px;
+}
 
 /*---------------------СТРАНИЦА 2-HERO--------------------*/
 .section-hero {
+    display: block;
     background-color: var(--footer-header-bgd-color);
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
 }
 .hero-title {
+
     color: var(--top-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
     letter-spacing: 0.06em;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 30px;
+    width: 696px;
+    
 }
 .hero-btn {
-    display: inline-block;
+
     
     padding-top: 10px;
     padding-right: 32px;
